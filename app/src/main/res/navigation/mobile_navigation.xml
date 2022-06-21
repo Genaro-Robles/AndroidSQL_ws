@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.greedstore.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_categorias"
+        android:name="com.example.greedstore.ui.categorias.CategoriasFragment"
+        android:label="@string/title_Categorias"
+        tools:layout="@layout/fragment_categorias" />
+
+    <fragment
+        android:id="@+id/navigation_favoritos"
+        android:name="com.example.greedstore.ui.favoritos.FavoritosFragment"
+        android:label="@string/title_Favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+</navigation>
