@@ -1,6 +1,5 @@
 # AndroidSQL_ws
-Este proyecto es la implementacion de un web service sencillo en PHP en android mediante la libreria Volley basado en el ecommerce GreedStore (otro de mis proyectos)
-aunque este utiliza una base de datos aparte. La aplicacion esta desarrollada en su totalidad con Java.
+Este proyecto es la implementacion de un web service sencillo en PHP (carpeta "greedstore_mobile") en android mediante la libreria Volley basado en el ecommerce GreedStore (otro de mis proyectos) aunque este utiliza una base de datos aparte. La aplicacion esta desarrollada en su totalidad con Java.
 
 Proyecto desarrollado durante el 6° Semestre.
 
